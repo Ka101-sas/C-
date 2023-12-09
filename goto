@@ -1,0 +1,16 @@
+using System;
+class HelloWorld {
+  static void Main() {
+    L1:
+        Console.WriteLine("your no is invalid");
+        Console.WriteLine("Enter your no");
+        int i=Convert.ToInt32(Console.ReadLine());
+        if(i<=10){
+           Console.WriteLine("no is valid"); 
+        }
+        else{
+            goto L1;
+        }
+        
+  }
+}
