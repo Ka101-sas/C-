@@ -1,0 +1,14 @@
+using System;
+public class f1 {
+     public int m1(int i,int j){
+         int result=i+j;
+         return result;
+     }
+     public static void Main(String[] args){
+         f1 o1=new f1();
+         int ans=o1.m1(2,5);
+         Console.WriteLine(ans);
+         
+     }
+        
+  }
