@@ -1,0 +1,11 @@
+using System;
+public class f1 {
+     public void m1(){
+         Console.WriteLine("Simple function");
+     }
+     public static void Main(String[] args){
+         f1 o1=new f1();
+         o1.m1();
+     }
+        
+  }
