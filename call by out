@@ -1,0 +1,17 @@
+using System;
+namespace ARRAY{
+class Program{
+public void passbyref(out int a){
+    a=20;
+    Console.WriteLine(a);
+}    
+
+  static void Main(String[] args) {
+      Program p1=new Program();
+      int val;
+      p1.passbyref(out val);
+      Console.WriteLine(val);
+  }
+  
+}
+}
