@@ -1,0 +1,15 @@
+using System;
+namespace ARRAY{
+class Program
+{
+  static void Main(String[] args) {
+    int[] myarray=new int[5];
+    myarray[0]=11;
+    myarray[1]=22;
+    myarray[2]=33;
+    myarray[3]=44;
+    myarray[4]=55;
+    Console.WriteLine(myarray[3]);
+ }
+}
+}
