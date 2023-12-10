@@ -1,0 +1,14 @@
+using System;
+namespace ARRAY{
+class Program
+{
+  static void Main(String[] args) {
+    int[,] myarray=new int[3,4]
+  {  {23,34,56,78},
+    {45,56,67,78},
+    {67,78,89,90}
+   };
+Console.WriteLine(myarray.GetLength(0));
+}
+}
+}
