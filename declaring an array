@@ -10,6 +10,9 @@ class Program
     myarray[3]=44;
     myarray[4]=55;
     Console.WriteLine(myarray[3]);
+    Console.WriteLine(myarray.Length);
+
  }
 }
 }
+
