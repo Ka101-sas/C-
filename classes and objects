@@ -1,0 +1,27 @@
+
+using System;
+namespace Classes_And_Objects{
+class Student{
+    int rollno;
+    string name;
+    int age;
+    
+    public void Setvalue(int a,string n,int g){
+        this.rollno=a;
+        this.name=n;
+        this.age=g;
+
+    }
+    public void getvalue(){
+        Console.WriteLine(rollno);
+        Console.WriteLine(name);
+        Console.WriteLine(age);
+
+    }
+    public static void Main(string[] args){
+        Student s1=new Student();
+        s1.Setvalue(5,"asdfg",23);
+        s1.getvalue();
+    }
+}
+}
