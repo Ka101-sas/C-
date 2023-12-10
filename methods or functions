@@ -1,0 +1,19 @@
+using System;
+namespace ARRAY{
+class Program
+{
+    public void show(){
+        Console.WriteLine("hey");
+    }
+        public static void show1(){
+        Console.WriteLine("hey uh");
+    }
+
+  static void Main(String[] args) {
+      Program p1=new Program();
+      p1.show();
+      show1();
+  }
+  
+}
+}
