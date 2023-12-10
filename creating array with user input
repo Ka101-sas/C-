@@ -1,0 +1,18 @@
+using System;
+namespace ARRAY{
+class Program
+{
+  static void Main(String[] args) {
+  int num=Convert.ToInt32(Console.ReadLine());
+  int[] myarr1=new int[num];
+  
+  for (int i=0;i<num;i++){
+      int data=Convert.ToInt32(Console.ReadLine());
+        myarr1[i]=data;
+}  
+Console.WriteLine("your data is");
+foreach(int item in myarr1){
+    Console.WriteLine(item);}
+}
+}
+}
