@@ -1,0 +1,34 @@
+using System;
+namespace OperatorOverloading{
+class ops{
+  
+       
+           public string str;
+           public int num;
+           
+           public static ops operator +(ops obj1,ops obj2){
+               ops obj3=new ops();
+               obj3.str=obj1.str+obj2.str;
+               obj3.num=obj1.num+obj2.num;
+               return obj3;
+           }
+}
+       
+class Program{
+           public static void Main(string[] args){
+               ops obj1=new ops();
+               obj1.str="Kavya";
+               obj1.num=23;
+               
+               ops obj2=new ops();
+               obj2.str="Saraswat";
+               obj2.num=23;
+               
+               ops obj3=new ops();
+               obj3=obj1+obj2;
+               Console.WriteLine(obj3.str);
+               Console.WriteLine(obj3.num);
+
+           }
+}
+}
